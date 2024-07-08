@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Estilo para el cuerpo del documento */
+body {
+    background-color: #9c9c9c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+/* Estilo para la imagen de la tarjeta */
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    padding: 15px;
+}
+
+/* Estilo para el título de la tarjeta */
+.card-title {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el texto de la tarjeta */
+.card-text {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}

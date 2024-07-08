@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - StarCrypto Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">StarCrypto Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container">
+        <h2 class="text-center my-4">Catálogo de Productos</h2>
+        <div class="row">
+            <!-- Repetir esta estructura para cada producto -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Img/asic.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>ASICS</strong></h5>
+                        <p class="card-text">Los mineros ASIC son dispositivos de hardware utilizados para la minería de criptomonedas, especialmente de Bitcoin. Son eficientes y rentables gracias a su capacidad de trabajar con un algoritmo de minado específico. </p>
+                        <a href="detalles-producto.html" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Img/rig nuevo.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Rigs Nuevos</strong></h5>
+                        <p class="card-text">Un rig de minería es una sistema de hardware especial, habitualmente basado en el diseño de las tarjetas gráficas, que se utilizan para la minería de criptomonedas.</p>
+                        <a href="detalles-producto-2.html" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- producto 3-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Img/rig usado.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Rigs Usados</strong></h5>
+                        <p class="card-text">Para los que buscan iniciarse en el mundo de las criptomonedas con bajo presupuesto.</p>
+                        <a href="detalles-producto-3.html" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 StarCrypto Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
